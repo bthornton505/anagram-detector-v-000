@@ -8,6 +8,6 @@ class Anagram
   end 
   
   def match(array)
-    array.select {|w| w.split(" ") == w}
+    array.select {|w| w.split(" ") == w.@word}
   end 
 end 
