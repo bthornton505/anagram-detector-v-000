@@ -9,5 +9,6 @@ class Anagram
   
   def match(array)
     array.select {|w| w.split("").sort == @word.split("").sort}
+    # First it takes the array 
   end 
 end 
