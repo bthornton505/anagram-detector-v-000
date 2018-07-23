@@ -8,6 +8,6 @@ class Anagram
   end 
   
   def match(array)
-    
+    array.match(%w(@word))
   end 
 end 
